@@ -9,7 +9,7 @@ else:
 
 
 while True:
-    text = input('請輸入你的會員點數,或輸入quit以結束：')
+    text = input('請輸入你的會員點數,或輸入quit以結束：').strip().lower()
     if text == 'quit':
         break
     try:

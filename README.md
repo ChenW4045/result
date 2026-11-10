@@ -15,7 +15,7 @@
 | 目錄 | 說明 |
 | --- | --- |
 | `python-fundamentals` | 基礎語法與獨立練習 |
-| `mini-projects` | 整合多個觀念的小型專案 |
+| `  mini-projects` | 整合多個觀念的小型專案 |
 | `capstone-projects` | 較完整的整合專案與展示作品 |
 
 ## 目前練習內容

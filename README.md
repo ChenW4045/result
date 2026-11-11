@@ -40,6 +40,7 @@
 - `python-fundamentals/read_tasks.py`
 - `python-fundamentals/count_tasks.py`
 - `python-fundamentals/tasks.txt`
+- `python-fundamentals/count_valid_tasks.py`
 
 從文字檔讀取待辦內容，練習整份讀取、逐行處理與行數統計。
 
@@ -47,6 +48,14 @@
 - 三行待辦
 - 單行待辦
 - 空檔案
+
+逐行讀取文字檔，使用 `strip()` 清理頭尾空白，
+排除空白行及只有空格的行，再統計有效待辦數量。
+
+已通過測試：
+- 三項待辦混有空白行及頭尾空格：3 項
+- 只有空白行和空格：0 項
+- 完全空檔案：0 項
 
 ## 執行方式
 
@@ -63,18 +72,6 @@ python count_tasks.py
 ```
 
 讀檔練習請在對應的資料夾內執行，並保留所需的資料檔。
-
-### 有效待辦統計
-
-檔案：`python-fundamentals/count_valid_tasks.py`
-
-逐行讀取文字檔，使用 `strip()` 清理頭尾空白，
-排除空白行及只有空格的行，再統計有效待辦數量。
-
-已通過測試：
-- 三項待辦混有空白行及頭尾空格：3 項
-- 只有空白行和空格：0 項
-- 完全空檔案：0 項
 
 ## 後續規劃
 
